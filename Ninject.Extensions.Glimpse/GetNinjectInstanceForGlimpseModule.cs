@@ -7,16 +7,10 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-#region Copyright (c) 2010 Tiny Gecko
-
-// <copyright file="this.cs" company="Tiny Gecko">
-// </copyright>
-#endregion
-
-namespace Glimpse.Ninject
+namespace Ninject.Extensions.Glimpse
 {
-	using global::Ninject;
-	using global::Ninject.Modules;
+	using Ninject;
+	using Ninject.Modules;
 
 	/// <summary>
 	/// The ninject glipse location module.

@@ -7,16 +7,16 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Glimpse.Ninject
+namespace Ninject.Extensions.Glimpse
 {
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Web;
 
-	using Glimpse.Core.Extensibility;
+	using global::Glimpse.Core.Extensibility;
 
-	using global::Ninject;
-	using global::Ninject.Modules;
+	using Ninject;
+	using Ninject.Modules;
 
 	/// <summary>
 	/// The ninject glimpse plugin.
@@ -64,7 +64,7 @@ namespace Glimpse.Ninject
 			IKernel kernel = GetNinjectInstanceForGlimpseModule.CurrentKernel;
 
 			var modules =
-				kernel.GetModules().OfType<NinjectModule>().Where(s => s.Name != "Glimpse.Ninject.NinjectGlipseLocationModule").
+				kernel.GetModules().OfType<NinjectModule>().Where(s => s.Name != "Ninject.Extensions.Glimpse.GetNinjectInstanceForGlimpseModule").
 					ToDictionary<NinjectModule, string, object>(module => module.Name, module => module.Bindings);
 
 			returnCollection.Add("Modules & Bindings", modules);
