@@ -1,9 +1,0 @@
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Ninject.Extensions.Glimpse.dll
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Ninject.Extensions.Glimpse.pdb
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Glimpse.Core.dll
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Ninject.dll
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Ninject.pdb
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\bin\Release\Ninject.xml
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\obj\Release\ResolveAssemblyReference.cache
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\obj\Release\Ninject.Extensions.Glimpse.dll
-C:\Projects\Ninject.Extensions.Glimpse\Ninject.Extensions.Glimpse\obj\Release\Ninject.Extensions.Glimpse.pdb
