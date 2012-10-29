@@ -2,7 +2,6 @@
 Thumbs.db
 #Ignore files build by Visual Studio
 *.obj
-*.exe
 *.pdb
 *.user
 *.aps
@@ -27,4 +26,4 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 *.ncrunchsolution
-
+packages
