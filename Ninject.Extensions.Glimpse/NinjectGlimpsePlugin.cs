@@ -24,8 +24,6 @@ namespace Ninject.Extensions.Glimpse
 	[GlimpsePlugin(false)]
 	public class NinjectGlimpsePlugin : IGlimpsePlugin
 	{
-		#region Properties
-
 		/// <summary>
 		/// Gets Name.
 		/// </summary>
@@ -33,16 +31,9 @@ namespace Ninject.Extensions.Glimpse
 		{
 			get
 			{
-				return "Ninject v2";
+				return "Ninject";
 			}
 		}
-
-		#endregion
-
-		#region Implemented Interfaces
-
-		#region IGlimpsePlugin
-
 		/// <summary>
 		/// The get data.
 		/// </summary>
@@ -79,9 +70,5 @@ namespace Ninject.Extensions.Glimpse
 		public void SetupInit()
 		{
 		}
-
-		#endregion
-
-		#endregion
 	}
 }
