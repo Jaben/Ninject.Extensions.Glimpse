@@ -1,4 +1,4 @@
-# Glimpse Plugin for Ninject v2.x
+# Glimpse Plugin for Ninject v3.x
 
 ### What is Glimpse and Ninject?
 
