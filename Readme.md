@@ -12,7 +12,7 @@ This Glimpse Plugin gives you a clearer view of your Ninject Modules, bindings a
 
 ### Quick start
 
-Simply drag and drop Ninject.Extensions.Glimpse.dll into your bin directory. It will automatically locator your Ninject container instance that is automatically loading extensions.
+Simply drag and drop Ninject.Extensions.Glimpse.dll into your bin directory. It should automatically locate your Ninject container instance if it supports automatic extension loading.
 
 ### Manual Wireup
 
@@ -21,4 +21,4 @@ If you have ninject extension loading off, you'll need to manually add the Glimp
 	var kernel = new StandardKernel(KernelOptions, new GeneralModule(), new Ninject.Extensions.Glimpse.GetNinjectInstanceForGlimpseModule());
 
 	
-Althought, that kind of defeats the purpose of loose design. ;)
+...but, that kind of defeats the purpose of loose design. ;)
