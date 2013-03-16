@@ -18,9 +18,18 @@ Simply drag and drop Ninject.Extensions.Glimpse.dll into your bin directory. It 
 
 If you have ninject extension loading off, you'll need to manually add the Glimpse module to your new StandardKernel() creation call:
 
+```C#	
+private static IKernel CreateKernel()
+{
 	var kernel = new StandardKernel(new GetNinjectInstanceForGlimpseModule());
-
-	OR
+	
+	// Other Registration ommitted
+		
+	return kernel;
+}
+```
+	
+OR
 
 ```C#	
 private static void RegisterServices(IKernel kernel)
