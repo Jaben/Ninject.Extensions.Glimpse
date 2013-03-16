@@ -6,10 +6,12 @@
 //   The ninject glimpse plugin.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-
+//
 using System.Collections.Generic;
 using System.Linq;
+//
 using Glimpse.Core.Extensibility;
+//
 using Ninject;
 using Ninject.Modules;
 

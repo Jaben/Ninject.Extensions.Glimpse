@@ -6,7 +6,7 @@
 //   The ninject glipse location module.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-
+//
 using Ninject;
 using Ninject.Modules;
 
