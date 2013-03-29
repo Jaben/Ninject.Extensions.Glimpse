@@ -2,19 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Glimpse.Ninject</id>
-    <version>0.8.0-beta</version>
+    <version>0.8.2-beta</version>
     <title>Glimpse.Ninject</title>
-    <authors>Jaben Cargman</authors>
-    <owners />
+    <authors>Jaben Cargman, Sean Gilbert</authors>
+    <owners>Sean Gilbert</owners>
     <projectUrl>https://github.com/YAFNET/Ninject.Extensions.Glimpse</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Adds Ninject v3 tab to Glimpse 1.0.1. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</description>
-    <summary />
+    <description>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman. Adds Ninject v3 tab to Glimpse 1.2.0. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</description>
+    <summary>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman.  Adds Ninject v3 tab to Glimpse 1.2.0. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</summary>
     <language>en-US</language>
     <tags>glimpse,ninject,plugin</tags>
     <dependencies>
       <dependency id="Ninject" version="3.0.1.10" />
-      <dependency id="Glimpse" version="1.0.1" />
+      <dependency id="Glimpse" version="1.2.0" />
     </dependencies>
   </metadata>
   <files>
