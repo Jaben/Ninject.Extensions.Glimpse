@@ -1,3 +1,3 @@
-NuGet Push Glimpse.Ninject.0.8.2-beta.nupkg
+NuGet Push Glimpse.Ninject.0.8.3-beta.nupkg
  
 pause
