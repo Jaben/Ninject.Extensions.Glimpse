@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Glimpse.Ninject</id>
-    <version>0.8.5</version>
+    <version>0.9.0</version>
     <title>Glimpse.Ninject</title>
     <authors>Jaben Cargman, Sean Gilbert</authors>
     <owners>Sean Gilbert</owners>
     <projectUrl>https://github.com/segilbert/Ninject.Extensions.Glimpse</projectUrl>
-    <description>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman. Adds Ninject v3 tab to Glimpse 1.2.0. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</description>
-    <summary>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman.  Adds Ninject v3 tab to Glimpse 1.2.0. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</summary>
+    <description>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman. Adds Ninject v3 tab to Glimpse 1.3.1. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</description>
+    <summary>** This is a fork of Ninject.Extensions.Glimpse by Jaben Cargman.  Adds Ninject v3 tab to Glimpse 1.3.1. Allows viewing all bound interfaces to implementations as well as current settings in the default container just by dropping the assembly into your project.</summary>
     <language>en-US</language>
     <tags>glimpse ninject plugin</tags>
 	<copyright>frozenbytes 2013</copyright>
@@ -17,12 +17,11 @@
     <iconUrl>http://www.i-m-code.com/blog/images/frozen_sm.png</iconUrl>
     <dependencies>
       <dependency id="Ninject" version="3.0.1.10" />
-      <dependency id="Glimpse" version="1.2.0" />
+      <dependency id="Glimpse" version="1.3.1" />
     </dependencies>
 	<releaseNotes>
-      3/29/2013 - 	Updated to Glimpse 1.2.x
-					Updated project URL to point to fork
-    </releaseNotes>
+	   Updated to Glimpse 1.3.1
+	</releaseNotes>
   </metadata>
   <files>
 	<file src="..\src\Glimpse.Ninject\bin\Release\Glimpse.Ninject.dll" target="lib\net4" />
