@@ -1,4 +1,4 @@
-# Glimpse Plugin for Ninject v3.x
+# Glimpse 1.2.x Plugin for Ninject v3.x
 
 ### What is Glimpse and Ninject?
 
@@ -18,7 +18,23 @@ Simply drag and drop Ninject.Extensions.Glimpse.dll into your bin directory. It 
 
 If you have ninject extension loading off, you'll need to manually add the Glimpse module to your new StandardKernel() creation call:
 
-	var kernel = new StandardKernel(KernelOptions, new GeneralModule(), new Ninject.Extensions.Glimpse.GetNinjectInstanceForGlimpseModule());
-
+```C#	
+private static IKernel CreateKernel()
+{
+	var kernel = new StandardKernel(new GetNinjectInstanceForGlimpseModule());
 	
-...but, that kind of defeats the purpose of loose design. ;)
+	// Other Registration ommitted
+		
+	return kernel;
+}
+```
+	
+OR
+
+```C#	
+private static void RegisterServices(IKernel kernel)
+{
+	// Load Specific Modules
+	kernel.Load(new GetNinjectInstanceForGlimpseModule());
+}       
+```
